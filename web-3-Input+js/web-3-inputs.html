@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> <!--Esto es la cabecera de la pagina-->
+    <meta charset="UTF-8"> <!--Esto agrega los tipos de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Esto hace que la pagina sea responsive, osea que el contenido de adapte al tamaño de las pantallas-->
+    <meta name="author" content="kkk0">
+    <title>1-Etiquetas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header> <!-- Este es el encabezado de la página -->
+
+
+        <form>
+
+            <label
+                for="nombre">Email</label><!--Label es para darle nombre al iput. Gracias al for con el id del input sabremos de quien es el for-->
+
+            <input type="email" id="nombre" name="name ">
+            <label for="color">Elige un color</label>
+            <select id="color" name="color"> <!--Es para selector desplegable-->
+                <option>Rojo</option>
+                <option>Amarillo</option>
+                <option selected>Verde</option> <!--Es para predeterminar la opcion-->
+            </select>
+            <!--Nota: el "name" del select es nombre del valor respondido-->
+            <select id="color2" name="color" size="3"> <!--SIze es para mostrar más de una opción a la vez.-->
+                <option>Rojo</option>
+                <option>Amarillo</option>
+                <option selected>Verde</option> <!--Es para predeterminar la opcion-->
+            </select>
+            <textarea rows="10" cols="30" name="textarea"> </textarea>
+            <button type="button" id="Jboton">Botón</button>
+        </form>
+        <script src="js.js"></script>
+</body>
+
+</html>
